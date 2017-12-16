@@ -1,0 +1,15 @@
+<div id="container">
+  <h2 align="center">{{question.text}}</h2>
+  <div layout="row" layout-xs="column">
+    <div flex="20"></div>
+    <div flex="60">
+      <mat-grid-list cols="2" rowHeight="3:1" gutterSize="20">
+        <mat-grid-tile colspan="1" *ngFor="let answer of question.answers" class="hover-giallo" appUnderPressure>
+          <div align="center" [ngClass]="textSize">{{answer.text}}</div>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </div>
+    <div flex="20"></div>
+  </div>
+</div>
+
