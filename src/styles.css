@@ -3,65 +3,67 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 @import "../node_modules/ng2-flex-layout/dist/ng2-flex-layout.css";
 
-@font-face {
-  font-family: pt_sans1;
-  src: url(../node_modules/font/pt_sans/PTC55F.ttf);
-}
-@font-face {
-  font-family: pt_sans2;
-  src: url(../node_modules/font/pt_sans/PTC75F.ttf);
-}
-@font-face {
-  font-family: pt_sans3;
-  src: url(../node_modules/font/pt_sans/PTN57F.ttf);
-}
-@font-face {
-  font-family: pt_sans4;
-  src: url(../node_modules/font/pt_sans/PTN77F.ttf);
-}
-@font-face {
-  font-family: pt_sans5;
-  src: url(../node_modules/font/pt_sans/PTS55F.ttf);
-}
-@font-face {
-  font-family: pt_sans6;
-  src: url(../node_modules/font/pt_sans/PTS56F.ttf);
-}
-@font-face {
-  font-family: pt_sans7;
-  src: url(../node_modules/font/pt_sans/PTS75F.ttf);
-}
-@font-face {
-  font-family: pt_sans8;
-  src: url(../node_modules/font/pt_sans/PTS76F.ttf);
-}
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+/*@font-face {*/
+  /*font-family: pt_sans1;*/
+  /*src: url(../node_modules/font/pt_sans/PTC55F.ttf);*/
+/*}*/
+/*@font-face {*/
+  /*font-family: pt_sans2;*/
+  /*src: url(../node_modules/font/pt_sans/PTC75F.ttf);*/
+/*}*/
+/*@font-face {*/
+  /*font-family: pt_sans3;*/
+  /*src: url(../node_modules/font/pt_sans/PTN57F.ttf);*/
+/*}*/
+/*@font-face {*/
+  /*font-family: pt_sans4;*/
+  /*src: url(../node_modules/font/pt_sans/PTN77F.ttf);*/
+/*}*/
+/*@font-face {*/
+  /*font-family: pt_sans5;*/
+  /*src: url(../node_modules/font/pt_sans/PTS55F.ttf);*/
+/*}*/
+/*@font-face {*/
+  /*font-family: pt_sans6;*/
+  /*src: url(../node_modules/font/pt_sans/PTS56F.ttf);*/
+/*}*/
+/*@font-face {*/
+  /*font-family: pt_sans7;*/
+  /*src: url(../node_modules/font/pt_sans/PTS75F.ttf);*/
+/*}*/
+/*@font-face {*/
+  /*font-family: pt_sans8;*/
+  /*src: url(../node_modules/font/pt_sans/PTS76F.ttf);*/
+/*}*/
 
 
 
 
 
-@font-face {
-  font-family: pt_sans;
-  src: url(../node_modules/font/pt_sans/PTS55F.ttf);
-}
-@font-face {
-  font-family: pt_sans;
-  src: url(../node_modules/font/pt_sans/PTS75F.ttf);
-  font-weight: bold;
-}
-@font-face {
-  font-family: pt_sans;
-  src: url(../node_modules/font/pt_sans/PTS56F.ttf);
-  font-style: italic;
-}
-@font-face {
-  font-family: pt_sans;
-  src: url(../node_modules/font/pt_sans/PTS76F.ttf);
-  font-style: italic;
-  font-weight: bold;
-}
+/*@font-face {*/
+  /*font-family: pt_sans;*/
+  /*src: url(../node_modules/font/pt_sans/PTS55F.ttf);*/
+/*}*/
+/*@font-face {*/
+  /*font-family: pt_sans;*/
+  /*src: url(../node_modules/font/pt_sans/PTS75F.ttf);*/
+  /*font-weight: bold;*/
+/*}*/
+/*@font-face {*/
+  /*font-family: pt_sans;*/
+  /*src: url(../node_modules/font/pt_sans/PTS56F.ttf);*/
+  /*font-style: italic;*/
+/*}*/
+/*@font-face {*/
+  /*font-family: pt_sans;*/
+  /*src: url(../node_modules/font/pt_sans/PTS76F.ttf);*/
+  /*font-style: italic;*/
+  /*font-weight: bold;*/
+/*}*/
 
 
 body {
-  font-family: pt_sans, Verdana, sans-serif;
+  font-family: 'PT Sans', Verdana, sans-serif;
 }
